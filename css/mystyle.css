@@ -1,7 +1,7 @@
-	@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
-	@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
-	.event-list {
-	list-style: none;
+    @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+    @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+    .event-list {
+    list-style: none;
 	font-family: 'Lato', sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -204,6 +204,7 @@
 	width: 40px;
 	padding: 5px 0;
 	}
+    
 	}
 body{
 	padding: 0!important;
@@ -211,4 +212,10 @@ body{
 .mb-5{
 	margin-bottom: 5%;
 	width: 95%; 
-}	
+}
+.xepan-custom-form input{
+        width:85%;
+    }
+.xepan-custom-form textarea{
+        width:85%;
+}
