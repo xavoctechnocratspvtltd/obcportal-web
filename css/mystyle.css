@@ -219,3 +219,35 @@ body{
 .xepan-custom-form textarea{
         width:85%;
 }
+
+.giveMeEllipsis p.disclosure{
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  max-height: 3.6em;
+  line-height: 1.8em;
+}
+
+.samaj-detail-main img{
+	min-height:250px;
+  	max-height:500px;
+}
+
+.news-session .news_introtext {
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 1.8em;
+    margin-bottom: 10px;
+    max-height: 12.6em;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    padding-bottom: 13px;
+    text-overflow: ellipsis;
+}
+
+.news-session h4{
+	white-space:nowrap;
+  	text-overflow:ellipsis;
+  	overflow:hidden;
+}
+.news-session .image-block img{
+	height:170px;
+}
