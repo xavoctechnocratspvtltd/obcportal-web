@@ -2,7 +2,7 @@
     @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
     .event-list {
     list-style: none;
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 	margin: 0px;
 	padding: 0px;
 	}
@@ -220,7 +220,7 @@ body{
         width:85%;
 }
 
-.giveMeEllipsis p.disclosure{
+.giveMeEllipsis .disclosure{
   text-overflow: ellipsis;
   word-wrap: break-word;
   max-height: 3.6em;
@@ -250,4 +250,17 @@ body{
 }
 .news-session .image-block img{
 	height:170px;
+}
+
+.event-list > li > .social{
+  border-left:1px solid rgb(230, 230, 230);
+  min-height:160px;
+  max-height:160px;
+}
+.event-list > li > .social > ul{
+	border-left:none;
+}
+
+.donation-link a{
+    color:white!important;
 }
