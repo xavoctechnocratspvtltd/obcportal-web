@@ -264,3 +264,139 @@ body{
 .donation-link a{
     color:white!important;
 }
+
+/*******************FeedBack From & Comments***************************/
+
+.jquery-comments ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+.jquery-comments ul.main li.comment {
+	clear: both;
+}
+.jquery-comments ul.main li.comment .comment-wrapper {
+	border-top: 1px solid #ddd;
+	overflow: hidden;
+}
+.jquery-comments ul.main li.comment .comment-wrapper, .jquery-comments ul.main li.toggle-all, .jquery-comments ul.main li.comment .commenting-field {
+	padding: 0.5em;
+	}
+.jquery-comments ul.main li.comment .comment-wrapper > .profile-picture {
+	margin-right: 0.5rem;
+}
+.jquery-comments .profile-picture.round {
+	border-radius: 50%;
+}
+.jquery-comments .profile-picture {
+	float: left;
+	height: 3.6rem;
+	max-height: 50px;
+	max-width: 50px;
+	width: 3.6rem;
+}
+.jquery-comments ul.main li.comment time {
+	color: #666;
+	float: right;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	margin-left: 0.5em;
+}
+.jquery-comments ul.main li.comment .wrapper {
+	line-height: 1.3em;
+	overflow: hidden;
+}
+
+
+.jquery-comments ul.main li.comment .wrapper .content {
+	white-space: pre-line;
+}
+
+
+.jquery-comments .commenting-field.main {
+	margin-bottom: 0.75em;
+}
+.jquery-comments * {
+	box-sizing: border-box;
+	text-shadow: none;
+}
+.jquery-comments .commenting-field.main .profile-picture {
+	margin-bottom: 1rem;
+}
+.jquery-comments .profile-picture.round {
+	border-radius: 50%;
+}
+.jquery-comments .profile-picture {
+	float: left;
+	height: 3.6rem;
+	max-height: 50px;
+	max-width: 50px;
+	width: 3.6rem;
+}
+.jquery-comments .textarea-wrapper::before {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #d5d5d5 #d5d5d5 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	border-image: none;
+	border-style: solid;
+	border-width: 5px;
+	box-sizing: border-box;
+	content: " ";
+	height: 10px;
+	left: 5px;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+.jquery-comments .textarea-wrapper::after {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #fff #fff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	border-image: none;
+	border-style: solid;
+	border-width: 7px;
+	box-sizing: border-box;
+	content: " ";
+	height: 10px;
+	left: 7px;
+	position: absolute;
+	top: 1px;
+	width: 10px;
+}
+.jquery-comments .textarea-wrapper {
+	overflow: hidden;
+	padding-left: 15px;
+	position: relative;
+}
+
+.jquery-comments .textarea-wrapper .textarea > textarea{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+	cursor: text;
+	font-size: 1em;
+	line-height: 1.45em;
+	margin: 0;
+	outline: 0 none;
+	overflow-y: auto;
+	padding: 0.25em 2em 0.25em 0.8em;
+	width:100%;
+	min-height:150px;
+}
+.jquery-comments .textarea > textarea, .jquery-comments button {
+	-moz-appearance: none;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 0;
+	margin: 0;
+	outline: 0 none;
+	vertical-align: top;
+}
+
+.jquery-comments .highlight-background {
+	background: #2793e6 none repeat scroll 0 0;
+}
+
