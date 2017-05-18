@@ -3,7 +3,7 @@
     .event-list {
     list-style: none;
     font-family: 'Lato', sans-serif;
-	margin: 0px;
+    margin: 0px;
 	padding: 0px;
 	}
 	.event-list > li {
@@ -399,7 +399,12 @@ body{
 .jquery-comments .highlight-background {
 	background: #2793e6 none repeat scroll 0 0;
 }
-
+.field-error-text{
+    color:red;
+}
+p.atk-form-error{
+	margin:auto;
+}
 /*Samaj Details Page Event List View Style*/
 
 .details-event .event-list time,.details-event .event-list > li > img {
