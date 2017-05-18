@@ -400,3 +400,28 @@ body{
 	background: #2793e6 none repeat scroll 0 0;
 }
 
+/*Samaj Details Page Event List View Style*/
+
+.details-event .event-list time,.details-event .event-list > li > img {
+    width: 100%;
+	float: none;
+}
+
+.details-event .event-list > li > .social{
+	min-height:0px!important;
+	position: relative;
+	width: 100%;
+}
+
+.details-event .event-list > li > .social > ul > li{
+	float: left;
+	width: 15%;
+}
+.details-event .event-list > li > .info{
+	overflow:hidden;
+	padding-right:0px;
+}
+.details-event .disclosure{
+	max-height:5.6em!important;
+	min-height:0px!important;
+}
