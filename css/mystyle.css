@@ -430,3 +430,11 @@ p.atk-form-error{
 	max-height:5.6em!important;
 	min-height:0px!important;
 }
+.event-list h2{
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info{
+	overflow:hidden;
+} 
